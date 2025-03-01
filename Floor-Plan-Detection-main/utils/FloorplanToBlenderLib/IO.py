@@ -18,7 +18,7 @@ def generate_config_file():
     Generate new config file, if no exist
     '''
     config = configparser.ConfigParser()
-    config['DEFAULT'] = {'image_path': 'Examples/example.png',
+    config['DEFAULT'] = {'image_path': 'Images/example.png',
     'blender_installation_path': 'C:\\Program Files\\Blender Foundation\\Blender\\blender.exe',
     'file_structure': '[[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]',
     'mode': 'simple'}
